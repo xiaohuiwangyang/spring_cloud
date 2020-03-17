@@ -1,0 +1,18 @@
+response是接口
+responseresult实现了接口
+接口里面的属性
+  //操作是否成功
+    boolean success = SUCCESS;
+
+    //操作代码
+    int code = SUCCESS_CODE;
+
+    //提示信息
+    String message;
+
+responseresult的构造方法需要 resultcode
+
+resultCode是接口  接口定义了属性
+
+comomcodes实现了resultcode
+
